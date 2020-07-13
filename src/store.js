@@ -1,6 +1,5 @@
 import { createBrowserHistory } from 'history'
 import { createStore, applyMiddleware, compose } from 'redux';
-import { createLogger } from 'redux-logger';
 import createSagaMiddleware from 'redux-saga';
 import { routerMiddleware } from 'connected-react-router';
 
@@ -18,7 +17,6 @@ const store = createStore(
     applyMiddleware(
       routerMiddleware(history),
       sagaMiddleware,
-      createLogger(),
     ),
   ),
 );
