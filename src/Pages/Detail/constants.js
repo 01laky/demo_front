@@ -1,0 +1,4 @@
+export const DELETE_NOTE_INIT = 'DELETE_NOTE_INIT';
+export const GET_NOTE_INIT = 'GET_NOTE_INIT';
+export const GET_NOTE_START = 'GET_NOTE_START';
+export const GET_NOTE_SUCCESS = 'GET_NOTE_SUCCESS';
